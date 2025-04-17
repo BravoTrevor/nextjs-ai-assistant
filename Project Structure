@@ -1,0 +1,11 @@
+nextjs-ai-assistant/  
+├── app/  
+│   ├── (assistant)/          # AI chat interface  
+│   │   ├── actions.ts        # Server Actions for RAG  
+│   │   └── page.tsx          # Streaming chat UI  
+│   └── api/ingest/route.ts   # File ingestion endpoint  
+├── lib/  
+│   ├── vector/               # MongoDB Atlas vector utils :cite[6]  
+│   └── parsers/              # PDF/Markdown/code parsers  
+├── styles/                   # Tailwind + shadcn/ui  
+└── types/                    # TypeScript interfaces  
